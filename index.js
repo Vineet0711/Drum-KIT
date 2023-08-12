@@ -1,7 +1,7 @@
 const drum=document.querySelectorAll(".drum");
 console.log('working')
 
-const sounds=['crash','kick-bass','snare','tom-1','tom-2','tom-3','tom-4']
+const sounds=['tom-1','tom-2','tom-3','tom-4','snare','crash','kick-bass']
 const len=drum.length;
 for(let i=0;i<len;i++){
     drum[i].addEventListener('click',function(){
